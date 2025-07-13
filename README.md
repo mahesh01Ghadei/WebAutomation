@@ -14,4 +14,4 @@ This repository features a comprehensive collection of web automation examples u
 
 ⦁	Browser actions (mouse, keyboard, etc.)
 
-Browser actions (mouse, keyboard, etc.)These examples serve as practical references for both beginners and experienced testers looking to deepen their Selenium skills.///
+Browser actions (mouse, keyboard, etc.)These examples serve as practical references for both beginners and experienced testers looking to deepen their Selenium skills
