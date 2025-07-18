@@ -20,14 +20,14 @@ public class DisabledInput {
 		btnDelayEnable.click();
 		
 		WebDriverWait wait = new WebDriverWait(base.getDriver(),Duration.ofSeconds(10));
-		WebElement inputField = wait.until(new Function <WebDriver, WebElement>(){
+		WebElement enabledInputField = wait.until(new Function <WebDriver, WebElement>(){
 				public WebElement apply(WebDriver driver) {
 					WebElement element = driver.findElement(By.id("inputField"));
 			        return element.isEnabled() ? element : null;
 				}
 		});
 				
-		inputField.sendKeys("Input field is enabled.");
+		enabledInputField.sendKeys("Input field is enabled.");
 		base.tearDown();
 		
 	}
