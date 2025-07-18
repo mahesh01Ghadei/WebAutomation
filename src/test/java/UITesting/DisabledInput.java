@@ -19,11 +19,11 @@ public class DisabledInput {
 		WebElement btnDelayEnable = base.getDriver().findElement(By.id("enableButton"));
 		btnDelayEnable.click();
 		
-		WebDriverWait wait = new WebDriverWait(base.getDriver(),Duration.ofSeconds(10));
-		WebElement enabledInputField = wait.until(new Function <WebDriver, WebElement>(){
+		WebDriverWait inputFieldWait = new WebDriverWait(base.getDriver(),Duration.ofSeconds(10));
+		WebElement enabledInputField = inputFieldWait.until(new Function <WebDriver, WebElement>(){
 				public WebElement apply(WebDriver driver) {
-					WebElement element = driver.findElement(By.id("inputField"));
-			        return element.isEnabled() ? element : null;
+					WebElement inputElement = driver.findElement(By.id("inputField"));
+			        return inputElement.isEnabled() ? inputElement : null;
 				}
 		});
 				
