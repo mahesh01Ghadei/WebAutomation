@@ -1,3 +1,5 @@
+#WebAutomation
+
 This repository features a comprehensive collection of web automation examples using Java and Selenium WebDriver. It demonstrates a wide range of real-world web UI scenarios, including:
 
 ⦁	Dynamic elements
