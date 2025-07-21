@@ -7,9 +7,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 public class ScrollBarBtnView extends BaseClass{
+	
 	public static void main(String[] args) throws InterruptedException, IOException {
-
-
 		
 		BaseClass base = new BaseClass();
 		base.setup();
