@@ -11,8 +11,7 @@ public class Alerts {
 	
 	public static void main (String[] args) {
 		
-		
-		BaseClass base = new BaseClass();
+	BaseClass base = new BaseClass();
         base.setup();
         
         WebDriverWait wait = new WebDriverWait(base.getDriver(),Duration.ofSeconds(10));
