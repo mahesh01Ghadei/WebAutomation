@@ -30,6 +30,8 @@ public class BaseClass {
 			driver.quit();
 		}
 	}
+
+	
 	
 	public void takeScreenshot(String fileName) throws IOException {
 		
