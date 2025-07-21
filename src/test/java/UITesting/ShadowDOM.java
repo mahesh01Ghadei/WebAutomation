@@ -5,8 +5,6 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 
 public class ShadowDOM {
-
-	
 	public static void main(String[] args) throws InterruptedException {
 		
 	BaseClass base = new BaseClass();
