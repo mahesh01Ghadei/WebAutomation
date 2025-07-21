@@ -8,9 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AJAXComponentTest {
 
+
+	
 	public static void main(String [] args) {
 		
-		BaseClass base = new BaseClass();
+        BaseClass base = new BaseClass();
         base.setup();
         
         base.getDriver().findElement(By.xpath("//a[text()='AJAX Data']")).click();
@@ -22,8 +24,6 @@ public class AJAXComponentTest {
 	    System.out.println(isAjaxDataLoaded? "AJAX data fetched successfully":"Failed to fetch AJAX data");
 			
 	    base.tearDown();
-		
-		
 	}
 	
 }
