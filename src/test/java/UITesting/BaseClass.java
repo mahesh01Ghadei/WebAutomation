@@ -14,13 +14,12 @@ public class BaseClass {
 	
 	public WebDriver driver;
 	
-	
 	public WebDriver getDriver() {
 		return driver;
 	}
 	
 	public void setup() {
-		driver = new ChromeDriver();
+		driver = new ChromeDrive();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("http://www.uitestingplayground.com/");
