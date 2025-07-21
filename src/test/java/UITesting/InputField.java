@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 public class InputField extends BaseClass {
 
 	public static void main(String[] args) {
+
+
 		
 		BaseClass base = new BaseClass();
 		base.setup();
