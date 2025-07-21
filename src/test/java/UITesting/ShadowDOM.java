@@ -6,9 +6,10 @@ import org.openqa.selenium.WebElement;
 
 public class ShadowDOM {
 
-	public static void main(String[] args) throws InterruptedException {
+	
+	public static void main(String[] arg) throws InterruptedException {
 		
-		BaseClass base = new BaseClass();
+	BaseClass base = new BaseClass();
         base.setup();
         
         base.getDriver().findElement(By.xpath("//a[text()='Shadow DOM']")).click();
