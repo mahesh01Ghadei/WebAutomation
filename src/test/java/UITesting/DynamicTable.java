@@ -25,7 +25,6 @@ public class DynamicTable {
 		        break;
 		    }
 		}
-		
 		WebElement txtDynamicTableData = base.getDriver().findElement(By.xpath("//*[@aria-label='Tasks']//*[text()='"+component+"']/following-sibling::span["+dataindex+"]"));
 		
 		String txtDataExtractedFromTable = component+" "+dataOf+": "+txtDynamicTableData.getText();
