@@ -15,7 +15,6 @@ public class Alerts {
         base.setup();
         
         WebDriverWait wait = new WebDriverWait(base.getDriver(),Duration.ofSeconds(10));
-        
         base.getDriver().findElement(By.xpath("//a[text()='Alerts']")).click();
        
         WebElement showAlertButton = base.getDriver().findElement(By.id("alertButton"));
