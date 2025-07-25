@@ -18,11 +18,11 @@ public class Alerts {
         
         base.getDriver().findElement(By.xpath("//a[text()='Alerts']")).click();
        
-        WebElement btnAlert = base.getDriver().findElement(By.id("alertButton"));
+        WebElement showAlertButton = base.getDriver().findElement(By.id("alertButton"));
         WebElement btnConfirm = base.getDriver().findElement(By.id("confirmButton"));
         WebElement btnPrompt = base.getDriver().findElement(By.id("promptButton"));
         
-        btnAlert.click();
+        showAlertButton.click();
         base.getDriver().switchTo().alert().accept();
         
         btnConfirm.click();
